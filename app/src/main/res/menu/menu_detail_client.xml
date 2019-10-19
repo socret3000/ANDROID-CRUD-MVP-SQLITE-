@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/menEdit"
+        android:title="Done"
+        android:icon="@drawable/ic_edit_"
+        app:showAsAction="always"
+        >
+    </item>
+
+    <item
+        android:id="@+id/menDone"
+        android:title="Done"
+        android:icon="@drawable/ic_done"
+        app:showAsAction="always"
+        >
+    </item>
+
+    <item
+        android:id="@+id/menSave"
+        android:title="Save"
+        android:icon="@drawable/ic_save"
+        app:showAsAction="always"
+        >
+    </item>
+
+    <item
+        android:id="@+id/menDelete"
+        android:title="Delete"
+        android:icon="@drawable/ic_delete"
+        app:showAsAction="always"
+        >
+
+    </item>
+    <item
+        android:id="@+id/menCancel"
+        android:title="Delete"
+        android:icon="@drawable/ic_cancel"
+        app:showAsAction="always"
+        >
+
+    </item>
+
+
+
+
+</menu>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CrudMvpSqlite</string>
+
+    <string name="rucClient">Ruc</string>
+    <string name="nameClient">Nombre</string>
+    <string name="direcClient">Direccion</string>
+    <string name="empClient">Razon social</string>
+
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Views.DetailClient">
+
+    <include layout="@layout/toolbar_detail_client"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rucClient"
+
+                style="@style/TextviewClient">
+
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/etRuc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/editTextClient"
+                android:inputType="number"
+                >
+
+
+
+            </EditText>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nameClient"
+                style="@style/TextviewClient">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/editTextClient"
+                >
+
+            </EditText>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/direcClient"
+
+                style="@style/TextviewClient">
+
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/etDirecc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/editTextClient"
+                >
+
+
+
+            </EditText>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/empClient"
+                style="@style/TextviewClient">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/etRazon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/editTextClient"
+                >
+
+            </EditText>
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>
