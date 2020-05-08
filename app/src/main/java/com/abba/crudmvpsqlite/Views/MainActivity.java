@@ -179,7 +179,7 @@ public class MainActivity extends AppCompatActivity implements InterfaceMainView
     @Override
     public void filterClient(ArrayList<Cliente> cliente) {
 		
-		Log.e("errorTest","esto e sun test");
+		
 
 
     }
